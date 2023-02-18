@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Perfiles" />
+    <meta name="keywords" content="Configuracion perfiles" />
+    <meta name="author" content="Lucio Lazarte" />
+    <meta
+    name="description"
+    content="Mira miles de episodios de tus series y programas favoritos en cualquier disposiivo. Disfruta de contenido de los principales canales de entretenimiento del mundo."
+  />
+  <meta
+    name="keywords"
+    content="streaming, series, películas, shows, programas, buen precio, plataforma"
+  />
+  <meta name="author" content="Lucio Lazarte" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+    crossorigin="anonymous"
+  />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+  />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Crear perfil</title>
+    <link rel="icon" type="image/x-icon" href="../img/logos/Favicon.png" />
+  </head>
+  <body class="fondo-oscuro">
+    <header>
+      <nav class="navbar navbar-expand-lg color-oscuro navbar-dark">
+        <div class="mx-5">
+          <a class="navbar-brand" href="../index.html">
+            <img
+              src="../img/logos/Moonscreenlogo.png"
+              alt="logo panaderia cocu"
+              width="130px"
+            />
+          </a>
+      </nav>
+    </header>
+    <main class="container my-4">
+      <h1 class="display-3 fw-bold text-center texto-blanco">Crear perfil</h1>
+      <section class="row justify-content-center">
+        <ul class="text-center mt-3">
+          <img src="../img/varios/fotoperfil.png" alt="foto de perfil" />
+        </ul>
+        <article class="col-md-4">
+          <form>
+            <div class="mb-3">
+              <label for="nombrePerfil" class="form-label"></label>
+              <input
+                type="text"
+                class="form-control formulario-dos"
+                id="nombrePerfil"
+                placeholder="Nombre del perfil"
+                minlength="2"
+                maxlength="100"
+                required
+              />
+            </div>
+          </form>
+          <aside class="text-end cajas-organizadas">
+            <p class="texto-blanco">Modo ninos</p>
+            <div class="switch-button">
+                <input
+              type="checkbox"
+              name="switch-button"
+              id="switch-label"
+              class="switch-button__checkbox"
+            />
+            <label for="switch-label" class="switch-button__label"></label>
+          </div>
+        </aside>
+        <hr class="texto-blanco">
+        <p class="texto-gris">Habilítelo para contenido apto para niños
+            Establezca límites de tiempo de visualización en la configuración de su cuenta.</p>
+            <a href="./error404.html"><button type="button" class="btn w-100 btn-primary btn-primario gran-margin-top">GUARDAR PERFIL</button></a>
+            <button type="button" class="btn w-100 btn-outline-primary btn-secundario mt-2">CANCELAR</button>
+        </article>
+    </main>
+  </body>
+</html>
